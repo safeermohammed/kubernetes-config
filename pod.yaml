@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: hybridconector
+  labels:
+    app: web
+spec:
+  containers:
+    - name: client-connector
+      image: anthostest2.azurecr.io/hybridclientconnector:v1
+  imagePullSecrets:
+    - name: tryanthostest2
