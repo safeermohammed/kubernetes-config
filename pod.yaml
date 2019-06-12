@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hybridclientconnector2
+  name: hybridclientconnector3
   labels:
     app: web
 spec:
