@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: hybridclientconnector
+  name: hybridclientconnector2
   labels:
     app: web
 spec:
   containers:
-    - name: client-connector
+    - name: client-connector2
       image: anthostest2.azurecr.io/hybridconnector:v2
   imagePullSecrets:
     - name: tryanthostest2
